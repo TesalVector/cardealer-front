@@ -1,10 +1,21 @@
 body{
+    position: relative;
     font-family: 'Ropa Sans', sans-serif;
     overflow-x: hidden;
 }
 
 .c-row{
     display: inline-block;
+}
+
+#car-scroll-top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#car-scroll-top:hover{
+    cursor: pointer;
 }
 
  .carousel-item {
@@ -300,12 +311,12 @@ body{
 }   
 
 .card-into-payment button span{
-    color: #ffc107;
+    color: #07a4ff;
     transition: all 100ms;
 }
 
 .card-into-payment button span:hover{
-    color: #ffc110;
+    color: #055092;
 }
 
 
@@ -648,14 +659,6 @@ body{
     border: 1px solid #ffc107;
 }
 
-
-
-
-
-
-
-
-
 /* Media query*/
 
 @media (max-width: 575.98px) {
@@ -665,6 +668,22 @@ body{
 
     .error-car img{
         margin-top: 150px;
+    }
+
+    .personal-info input,
+    .personal-info select{
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        height: 38px;
+        border-radius: .25rem;
+    }
+    .slider-nav .slick-track{
+        height: 80px;
+    }
+
+    .slider-nav{
+        top: -10%;
     }
 }
 
@@ -679,6 +698,20 @@ body{
 
     #myFooter {
         text-align: center;
+    }
+    .personal-info input,
+    .personal-info select{
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        height: 38px;
+        border-radius: .25rem;
+    }
+    .slider-nav .slick-track{
+        height: 80px;
+    }
+    .slider-nav{
+        top: -10%;
     }
 }
 
@@ -715,6 +748,9 @@ body{
       #wrapper.toggled #page-content-wrapper {
         position: relative;
         margin-right: 0;
+      }
+      .slider-nav .slick-track{
+        height: 90px;
       }
   }
 
