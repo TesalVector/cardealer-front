@@ -197,7 +197,62 @@ body{
     font-size: 20px;
 }
 
+.tabs {
+    max-width: 640px;
+    margin: 0 auto;
+    /*padding: 0 20px;*/
+  }
 
+  #tab-button {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  #tab-button li {
+    display: table-cell;
+    width: 20%;
+  }
+
+  #tab-button li a {
+    display: block;
+    padding: .5em;
+    
+    border-bottom: 3px solid #ffc107;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+  }
+
+  #tab-select{
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    height: 40px;
+    outline: none;
+    border: 2px solid #ffc107;
+  }
+
+  #tab-button li a:hover,
+  #tab-button .is-active a {
+    border-bottom-color: transparent;
+    background: #fff;
+  }
+  .tab-contents {
+    padding: .5em 2em 1em;
+  }
+  
+
+  .tab-button-outer {
+    display: none;
+  }
+
+  .tab-contents {
+    margin-top: 20px;
+  }
 
 .table td,
 .table th {
@@ -531,11 +586,45 @@ body{
 
 
 
+.admin-login{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
 
+.admin-login img{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -75px;
+}
 
+.admin-login h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
 
+.admin-login .form-group{
+    width: 50%;
+    margin: 0 auto;
+}
 
+.admin-login input[type='submit']{
+    display: block;
+    margin: 0 auto;
+    background: #ffc107;
+    border: none;
+    width: 150px;
+}
 
+.admin-login input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.admin-login input:hover{
+    border: 1px solid #ffc107;
+}
 
 
 
