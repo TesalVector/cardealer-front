@@ -513,6 +513,9 @@ body{
   
 
 
+.admin-dashboard a{
+    color: #fff !important;
+}
 
 .admin-dashboard h1{
     font-size: 50px;
