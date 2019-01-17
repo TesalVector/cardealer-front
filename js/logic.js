@@ -175,3 +175,15 @@ $("#menu-toggle").click(function(e) {
     e.preventDefault();
     $("#wrapper").toggleClass("toggled");
 });
+
+
+$(document).ready(function() {
+    var results = $.getJSON("https://restcountries.eu/rest/v2/all", function(data) {
+        console.log(result);
+        for(var i = 0; i < data.length; i++) {
+            $("#cities").append('<option value="' + data[i].name + '">' + data[i].name + '</option>');
+        }
+    });
+});
+
+console.log('hello');
