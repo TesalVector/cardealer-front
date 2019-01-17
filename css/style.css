@@ -138,6 +138,15 @@ body{
      
 }
 
+.description-list-p i:first-of-type{
+    margin-left: 0; 
+}
+
+.description-list-p i{
+    margin: 0 5px 0 10px;
+    color: #00aced;
+}
+
 .description-btn-buy{
     display: block;
     margin: 0 auto;
