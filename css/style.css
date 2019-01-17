@@ -311,17 +311,23 @@ body{
 
 /*Payment Collapse*/
 
+.descriptiom-title-shop{
+    font-size: 70px;
+}
+
 .header-payment:nth-child(2){
     padding-top: 95px; 
 }
 
 .header-payment h3{
     font-size: 60px;
+    color: #C8C8C8;
 }
 
 .header-payment p{
-    color: red;
+    color: #000;
     font-size: 25px;
+    border-bottom: 1px solid #000; 
 }
 
 .personal-info h3{
