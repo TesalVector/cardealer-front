@@ -138,6 +138,13 @@ body{
      
 }
 
+.description-btn-buy{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    color: #fff;
+}
+
 .description-title h2{
     text-transform: uppercase;
     font-weight: 600;
